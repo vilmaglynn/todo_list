@@ -9,8 +9,6 @@ A simple JavaScript Todo list application that allows users to add, complete, an
 - Add tasks with a single click.
 - Strike through tasks to mark them as complete.
 - Double-click tasks to remove them from the list.
-- Display the total number of tasks.
-- Automatically number each task.
 
 ## Setup
 
