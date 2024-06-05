@@ -2,6 +2,7 @@
 
 A simple JavaScript Todo list application that allows users to add, complete, and delete tasks. This project demonstrates basic JavaScript DOM manipulation and event handling.
 
+[View the todo list ](https://vilmaglynn.github.io/todo_list/)
 ![Todo List Screenshot](./images/todo.png)
 
 ## Features
