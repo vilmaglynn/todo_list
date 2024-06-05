@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.headerTitle {
+  background-color: #11e66a;
+  padding: 10px;
+  text-align: center;
+  font-family: "Seymour One", sans-serif;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
+}
+
+.fa-list-check {
+  font-size: 60px;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  background: #d9d9d9;
+  color: #555;
+
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  border: none;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+.container {
+  width: 50%; /* Set the width to 50% of the parent container */
+  max-width: 600px; /* Optional: Set a maximum width */
+  min-width: 500px; /* Optional: Set a minimum width */
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.paragraph-styling {
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.form-group {
+  display: flex; /* Use flexbox to align input and button */
+  margin-bottom: 20px;
+}
+.form-group input {
+  flex: 1; /* Make the input take up available space */
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
